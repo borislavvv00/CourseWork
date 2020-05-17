@@ -1,0 +1,7 @@
+18 | Ivan
+20 | George
+23 | Denis
+25 | Chris
+30 | Peter
+19 | John
+18 | Kim
