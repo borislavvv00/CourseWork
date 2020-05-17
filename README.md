@@ -15,7 +15,8 @@
  \
  After every worker action the program pause.
  
- 
+# When download
+Projects setting are made, so that is only need to compile and run.
  
 # Images
 <img src = "ImagesForReadme/Img1.png" width = "400" height = "500"> <img src = "ImagesForReadme/Img1.png" width = "400"  height = "500"> 
