@@ -44,7 +44,7 @@ void WorkerAddSpacesToName(char *name)
 	if (length < (NAME_SIZE - 1))
 	{
 		unsigned char i = 0;
-		for (i = 0; i < (NAME_SIZE - length); i++)
+		for (i = 0; i < (NAME_SIZE - length) - 1; i++)
 		{
 			(void)strcat(name, " ");
 		}

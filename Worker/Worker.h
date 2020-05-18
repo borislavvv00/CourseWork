@@ -19,8 +19,8 @@ typedef enum
 typedef struct
 {
 	char name[NAME_SIZE];
-	unsigned char isActionDone; // 0(false), 1(true)
 	unsigned char age;
+	unsigned char isActionDone; // 0(false), 1(true)
 	unsigned char isWaited; // Used to indentify if worker has waited till now. 0(false), 1(true)
 	action_e action;// The taken action.
 	float money;// Money that are in the worker.

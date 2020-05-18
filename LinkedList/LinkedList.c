@@ -33,7 +33,7 @@ void ListPrint(const node_t * const list)
 	// If current node is NOT empry.
 	while (currentNode != NULL)
 	{
-		(void)strcpy(format, "| %d\t\t\t\t\t\t\t|\n| name = %s|\n| age = %d\t\t\t\t\t\t|\n| Goal = ");
+		(void)strcpy(format, "| %d\t\t\t\t\t\t\t|\n| name = %s |\n| age = %d\t\t\t\t\t\t|\n| Goal = ");
 		(void)strcat(format, currentNode->data.actionDescription);
 
 		// Needed to make output better.
