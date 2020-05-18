@@ -1,2 +1,56 @@
-﻿  CourseWork.vcxproj -> C:\Users\admin\documents\visual studio 2015\Projects\CProjects\CourseWork\Debug\CourseWork.exe
+﻿cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+  main.c
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\main.c(12): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Worker.c
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(49): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(63): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(63): warning C4024: 'ListAddNodeLast': different types for formal and actual parameter 1
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(64): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(64): warning C4024: 'ListDeleteFirstNode': different types for formal and actual parameter 1
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(85): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(85): warning C4024: 'ListAddNodeLast': different types for formal and actual parameter 1
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(86): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(86): warning C4024: 'ListDeleteFirstNode': different types for formal and actual parameter 1
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(99): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(99): warning C4024: 'ListAddNodeLast': different types for formal and actual parameter 1
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(100): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(100): warning C4024: 'ListDeleteFirstNode': different types for formal and actual parameter 1
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(111): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(111): warning C4024: 'ListAddNodeLast': different types for formal and actual parameter 1
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(112): warning C4047: 'function': 'node_t **' differs in levels of indirection from 'node_t ***'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\worker\worker.c(112): warning C4024: 'ListDeleteFirstNode': different types for formal and actual parameter 1
+  MainFunctions.c
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\mainfunctions\mainfunctions.c(11): warning C4133: '=': incompatible types - from 'node_t *' to 'worker_t *'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\mainfunctions\mainfunctions.c(47): warning C4133: '=': incompatible types - from 'node_t *' to 'worker_t *'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\mainfunctions\mainfunctions.c(60): warning C4133: '=': incompatible types - from 'node_t *' to 'worker_t *'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\mainfunctions\mainfunctions.c(61): warning C4047: 'function': 'node_t ***' differs in levels of indirection from 'node_t **'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\mainfunctions\mainfunctions.c(61): warning C4024: 'WorkerDoAction': different types for formal and actual parameter 3
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\mainfunctions\mainfunctions.c(61): warning C4024: 'WorkerDoAction': different types for formal and actual parameter 4
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\mainfunctions\mainfunctions.c(64): warning C4133: '=': incompatible types - from 'node_t *' to 'worker_t *'
+  LinkedList.c
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\linkedlist\linkedlist.c(29): warning C4090: 'initializing': different 'const' qualifiers
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\linkedlist\linkedlist.c(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\linkedlist\linkedlist.c(37): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\linkedlist\linkedlist.c(73): warning C4047: 'initializing': 'node_t *' differs in levels of indirection from 'node_t **'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\linkedlist\linkedlist.c(116): warning C4090: 'return': different 'const' qualifiers
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\linkedlist\linkedlist.c(122): warning C4090: 'initializing': different 'const' qualifiers
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\linkedlist\linkedlist.c(178): warning C4047: 'initializing': 'node_t *' differs in levels of indirection from 'node_t **'
+  File.c
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\file\file.c(11): warning C4090: 'function': different 'const' qualifiers
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\file\file.c(11): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'unsigned char *'
+  c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\file\file.c(11): note: consider using '%hhd' in the format string
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\file\file.c(11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\file\file.c(22): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\file\file.c(47): warning C4090: 'function': different 'const' qualifiers
+c:\users\admin\documents\visual studio 2015\projects\cprojects\coursework\coursework\file\file.c(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Generating Code...
+  CourseWork.vcxproj -> C:\Users\admin\documents\visual studio 2015\Projects\CProjects\CourseWork\Debug\CourseWork.exe
   CourseWork.vcxproj -> C:\Users\admin\documents\visual studio 2015\Projects\CProjects\CourseWork\Debug\CourseWork.pdb (Full PDB)
