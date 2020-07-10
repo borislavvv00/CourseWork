@@ -1,6 +1,6 @@
 # CourseWork Descriptions
  Takes the file in which are data of the workers from the comand line. Checks if the file is text(.txt) then\
- puts the data in linked lis. At the beginning every worker decides what action to do(To  work properly,to\
+ puts the data in linked list. At the beginning every worker decides what action to do(To  work properly,to\
  take money or to return money).\
  \
  Worker decides on random which of first two actions to do and the tird if he has already taken money(The amount\
