@@ -3,7 +3,7 @@
  puts the data in linked list. At the beginning every worker decides what action to do(To  work properly,to\
  take money or to return money).\
  \
- Worker decides on random which of first two actions to do and the tird if he has already taken money(The amount\
+ Worker decides on random which of first two actions to do and the third if he has already taken money(The amount\
  of money that worker returns is equal of that he has already taken). After that first worker does action, then goes back\
  at the end of the linked list and decides again his next action. If worker wants to take money, but in the cash\
  register aren't enought, he goes to another linked list and waits till in the cash register are enought money\
