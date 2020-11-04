@@ -3,6 +3,14 @@
 #include "..\File\File.h"
 #include "..\MathFunctions\MathFunctions.h"
 
+/* Prints the list of workers.
+*
+* arguments: const node_t * const list
+*
+* return type: void
+*/
+void PrintWorkersList(const node_t * const list);
+
 /* Initialize workers' data at the beginning.
 *
 * arguments: const node_t * const listOfWorkers

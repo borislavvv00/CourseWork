@@ -21,14 +21,6 @@ void ListAddNodeFirst(node_t **list, const worker_t worker);
 */
 void ListDelete(node_t **list);
 
-/* Prints the list.
-*
-* arguments: const node_t * const list
-*
-* return type: void
-*/
-void ListPrint(const node_t * const list);
-
 /* Search for given node by index and then returns that node.
 *
 * arguments: const node_t *list

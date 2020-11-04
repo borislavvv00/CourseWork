@@ -24,50 +24,6 @@ void ListAddNodeFirst(node_t **list, const worker_t worker)
 	free(newNode);
 }
 
-void ListPrint(const node_t * const list)
-{
-	node_t *currentNode = list;
-	char format[FORMAT_SIZE] = { 0 }; // Format of output.
-	size_t index = 0; // Node's index.
-
-	// If current node is NOT empry.
-	while (currentNode != NULL)
-	{
-		(void)strcpy(format, "| %d\t\t\t\t\t\t\t|\n| name = %s |\n| age = %d\t\t\t\t\t\t|\n| Goal = ");
-		(void)strcat(format, currentNode->data.actionDescription);
-
-		// Needed to make output better.
-		WorkerAddSpacesToName(currentNode->data.name);
-
-		// Set output color.
-		if (currentNode->data.action == TAKE_MONEY)
-		{
-			(void)SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);// 12 = light red.
-		}
-		else if (currentNode->data.action == RETURN_MONEY)
-		{
-			(void)SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);// 10 = light green.
-		}
-
-		// If worker is going to take or return money from cash register.
-		if (currentNode->data.action != WORK_PROPERLY)
-		{
-			(void)printf(format, index, currentNode->data.name, currentNode->data.age, currentNode->data.money);
-		}
-		else // If worker is going to just work.
-		{
-			(void)printf(format, index, currentNode->data.name, currentNode->data.age);
-		}
-
-		(void)SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
-
-		index++;
-		currentNode = currentNode->next;
-	}
-
-	free(currentNode);
-}
-
 void ListDelete(node_t **list)
 {
 	node_t *currentNode = list;

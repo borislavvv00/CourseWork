@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 	// Check if the arguments are needed number.
 	if (argc > 1)
 	{
-		OpenFile(&listOfWorkers, argv);
+		OpenTextFile(&listOfWorkers, argv);
 
 		InitWorkersAtTheBeginning(listOfWorkers, worker);
 

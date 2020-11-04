@@ -35,7 +35,7 @@
     <ClInclude Include="Worker\Worker.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Worker\WorkersData.txt" />
+    <Text Include="Resources\WorkerData.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AABAA67A-CD0C-42D1-BA4A-1B3E33D5C354}</ProjectGuid>
